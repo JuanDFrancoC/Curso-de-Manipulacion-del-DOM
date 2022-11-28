@@ -1,0 +1,13 @@
+--------------------------------------NodeLists vs Array---------------------------------------
+
+El NodeLists aparece cuando usamos el queryselectorAll y es muy parecido a un Array
+pero no lo es ya que carece de algunos metodos que si se pueden usar en un array como 
+por ejemplo un el map etc.
+
+LO CORRECTO ES CONVERTIR EL NodeLists EN UN Array ASI:
+
+almacenamos nuestro NodeLists en una variable y las pasamos a 
+array usando let variable = [...nombre-variable-donde-almacenamos-el-NodeLists]
+
+-----------------------------------------------------------------------------------------------
+
